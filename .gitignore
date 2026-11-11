@@ -1,0 +1,9 @@
+# senha local do ajudante de volume: é gerada em cada PC e nunca deve ser publicada
+helper/token.js
+# o exe é compilado localmente a partir de helper/SitioVolume.cs (veja helper/Compilar.cmd)
+helper/*.exe
+# sobras
+*.zip
+dist/
+.claude/
+Thumbs.db

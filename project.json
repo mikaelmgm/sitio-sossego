@@ -1,0 +1,20 @@
+{
+	"contentrating": "Everyone",
+	"description": "Um sítio em pixel art que vive no seu desktop: desenhe um círculo para criar ovelhas, arraste os bichos, empurre o balanço, sopre o vento, faça chover. Mostra a música que está tocando e reage ao som.",
+	"file": "index.html",
+	"general": {
+		"supportsaudioprocessing": true,
+		"properties": {
+			"schemecolor": { "order": 0, "text": "ui_browse_properties_scheme_color", "type": "color", "value": "0.35 0.71 0.94" },
+			"uiscale": { "order": 1, "text": "Tamanho dos botões", "type": "slider", "min": 0.6, "max": 1.8, "step": 0.1, "fraction": true, "value": 1 },
+			"ambvolume": { "order": 2, "text": "Volume do som do sítio", "type": "slider", "min": 0, "max": 100, "value": 55 },
+			"startsound": { "order": 3, "text": "Som do sítio ligado", "type": "bool", "value": true },
+			"showmusic": { "order": 4, "text": "Mostrar música tocando", "type": "bool", "value": true },
+			"autorain": { "order": 5, "text": "Chuva automática de vez em quando", "type": "bool", "value": true }
+		}
+	},
+	"tags": ["Pixel art"],
+	"title": "Sítio Sossego",
+	"type": "web",
+	"visibility": "private"
+}

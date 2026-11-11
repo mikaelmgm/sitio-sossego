@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sítio Sossego</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<canvas id="gl"></canvas>
+
+<!-- Música tocando (Spotify etc. via Wallpaper Engine) -->
+<div id="now" class="hidden" aria-live="polite">
+  <canvas id="cover" width="24" height="24"></canvas>
+  <div id="nowtext">
+    <div id="title">—</div>
+    <div id="artist"></div>
+    <div id="bar"><i id="barfill"></i></div>
+  </div>
+  <canvas id="spec" width="32" height="12"></canvas>
+</div>
+
+<div id="toast"></div>
+
+<script src="helper/token.js" onerror="window.SITIO_TOKEN=''"></script>
+<script src="js/util.js"></script>
+<script src="js/pix.js"></script>
+<script src="js/sprites.js"></script>
+<script src="js/world.js"></script>
+<script src="js/sky.js"></script>
+<script src="js/props.js"></script>
+<script src="js/fx.js"></script>
+<script src="js/scene.js"></script>
+<script src="js/animals.js"></script>
+<script src="js/critters.js"></script>
+<script src="js/weather.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/sfx.js"></script>
+<script src="js/gl.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/input.js"></script>
+<script src="js/media.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

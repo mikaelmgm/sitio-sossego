@@ -1,0 +1,44 @@
+SITIO SOSSEGO - wallpaper interativo em pixel art (Wallpaper Engine)
+
+COMO USAR
+- Abra o Wallpaper Engine. O "Sitio Sossego" aparece em Instalados (pasta projects\myprojects).
+  Se nao aparecer: "Abrir wallpaper" > "Abrir do arquivo" e escolha o index.html desta pasta.
+- Funciona em 1920x1080, 2560x1440 e 4K (os pixels ficam sempre inteiros).
+
+O QUE DA PRA FAZER (botao esquerdo do mouse na area de trabalho)
+- Desenhar um CIRCULO em qualquer lugar ........ nasce uma ovelha (as vezes preta, rosa ou menta)
+- Clicar e ARRASTAR um bicho .................... pega e solta em outro lugar (no lago da splash)
+- Clicar num bicho .............................. ele reage (ovelha, galinha, vaca, gato, pato, coruja)
+- Galinha clicada pode botar um ovo; clique no ovo e nasce um pintinho
+- RISCAR rapido na horizontal ................... rajada de vento (nuvens, grama, varal, moinho, balanco)
+- Clicar no balanco ............................. empurra
+- Clicar na copa da arvore ...................... sacode e caem folhas
+- Clicar numa nuvem ............................. chove so embaixo dela e as flores crescem
+- Clicar no lago ................................ ondas e os peixes fogem
+- Clicar no sol ou na lua ....................... troca dia/noite
+- Clicar na janela da cabana .................... acende/apaga a luz; na chamine, fumaca; na porta, toc toc
+- Clicar no moinho .............................. gira mais rapido
+- Clicar na grama vazia ......................... planta uma flor
+- Clicar no ceu ................................. brilho + notinha musical
+
+BOTOES DE VIDRO (canto superior direito)
+- Nota musical ...... liga/desliga o som ambiente do sitio
+- Nuvem ............. liga/desliga a chuva
+- Sol/Lua ........... interruptor dia/noite (arraste ou toque)
+- Alto-falante ...... volume do Windows (precisa do ajudante, veja abaixo)
+
+MUSICA
+Quando algo toca (Spotify etc.), o nome aparece no canto inferior direito, os bichos dancam,
+os vaga-lumes pulsam e saem notinhas da cabana.
+No Wallpaper Engine deixe ligado: Configuracoes > Geral > "Integracao de midia".
+
+VOLUME DO PC (opcional)
+Um wallpaper sozinho nao pode mexer no volume do Windows. Para o botao funcionar,
+abra a pasta "helper" e de dois cliques em "Ligar volume.cmd".
+- "Iniciar com o Windows (ligar).cmd" faz isso sozinho toda vez que voce ligar o PC.
+- "Iniciar com o Windows (desligar).cmd" desfaz.
+O ajudante (SitioVolume.exe, codigo em SitioVolume.cs) so escuta no proprio PC (127.0.0.1)
+e so aceita pedidos com a senha aleatoria gravada em helper\token.js.
+
+AJUSTES (nas propriedades do wallpaper no Wallpaper Engine)
+Tamanho dos botoes, volume do som do sitio, som ligado, mostrar musica, chuva automatica.
